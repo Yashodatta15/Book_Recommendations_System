@@ -1,11 +1,11 @@
 from flask import Flask,render_template,request
 import pickle
 import numpy as np
-from pandas.core.indexes.numeric import NumericIndex
+
 
 popular_df = pickle.load(open('popular.pkl','rb'))
 pt = pickle.load(open('pt.pkl','rb'))
-books = pickle.load(open('books.pkl','rb'))
+books = pickle.load(open('books.pkl','rb'))from pandas.core.indexes.numeric import NumericIndex
 similarity_scores = pickle.load(open('similarity_scores.pkl','rb'))
 
 app = Flask(__name__)
