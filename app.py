@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import pickle
 import numpy as np
-import pandas as pd
+from pandas.core.indexes.numeric import NumericIndex
 
 popular_df = pickle.load(open('popular.pkl','rb'))
 pt = pickle.load(open('pt.pkl','rb'))
