@@ -4,11 +4,15 @@ The Book Recommendation System using Cosine Similarity is a machine learning mod
 
 The dataset for the model consists of the following columns:
 
-1. Book Title: The title of the book, representing its name or main topic.
-2. Book Author: The name of the author who wrote the book.
-3. Year of Publication: The year when the book was published, providing information about its release date.
-4. Publisher: The name of the publishing company responsible for releasing the book.
-5. Image URL: A link to an image of the book's cover, which enhances the user experience by providing visual context.
+`1. Book Title: The title of the book, representing its name or main topic.`
+
+`2. Book Author: The name of the author who wrote the book.`
+
+`3. Year of Publication: The year when the book was published, providing information about its release date.`
+
+`4. Publisher: The name of the publishing company responsible for releasing the book.`
+
+`5. Image URL: A link to an image of the book's cover, which enhances the user experience by providing visual context.`
 
 The Cosine Similarity algorithm measures the cosine of the angle between two non-zero vectors in an n-dimensional space. In the context of the Book Recommendation System, each book's features (title, author, publication year, and publisher) are transformed into numerical vectors. The cosine similarity between any two book vectors is then calculated to determine their similarity.
 
